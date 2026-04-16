@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+  font-family: "Gelasio", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+  color:white;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none; 
+    
+}
+.header{
+    font-weight: 600;
+    display: flex;
+    justify-content:space-between ;
+    padding: 30px 80px;}
+.logo{
+        font-size: 32px;
+        text-transform: uppercase;
+        text-decoration: none; 
+        color:white;  
+    } 
+
+.link{
+    border: 2px,solid , white;
+    border-radius: 30px;
+    width:fit-content;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    text-transform: uppercase;
+    display: flex;
+    justify-content: right;
+    text-decoration: none; 
+    gap: 30px;
+    color:white;
+    padding: 20px 80px; 
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom,blue,white);
+
+}
+.link a:hover{
+    color :blue;
+    transition: 0.5s;
+}
+.content{
+
+    text-align: center;
+    margin-top: 150px;
+}
+.content h1 {
+    font-size: 60px; 
+    color: white;
+    letter-spacing: 2px; 
+    margin-bottom: 15px;
+    width: 100%;
+    
+
+}
+
+.content p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.main-btn {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: white;
+    color: #1e3c72; 
+    text-decoration: none;
+    border-radius: 25px; 
+    font-weight: bold;
+    transition: 0.4s;
+    text-transform: uppercase; 
+}
+
+.main-btn:hover {
+    background-color: #ffdb58; 
+    transform: scale(1.1); 
+}
+.connect{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom,blue,white);
+       
+}
+.connectlink{
+    border: 2px,solid , white;
+    border-radius: 30px;
+    width:fit-content;
+    margin:  auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none; 
+    gap: 30px;
+    color:white;
+    padding: 20px 40px; 
+
+}
+.connectlink a:hover{
+    color :blue;
+    transition: 0.5s;
+
+
+}
+
+.connect h1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 60px; 
+    color: white;
+    letter-spacing: 2px; 
+    margin-bottom: 40px;
+}
+form{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    input, textarea {
+    width: 350px;           
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: rgba(238, 231, 231, 0.5); 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+textarea {
+    height: 120px;     
+    resize: none;        
+}
+form button{
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: white;
+    color: #1e3c72; 
+    text-decoration: none;
+    border-radius: 25px; 
+    font-weight: bold;
+    transition: 0.4s;
+    text-transform: uppercase;
+    opacity: 1;
+}
+form button:hover {
+    background-color: #ffdb58; 
+    transform: scale(1.1); 
+}
+::placeholder {
+    color:rgb(87, 60, 60);
+    opacity: 1;
+}
+input:focus, textarea:focus {
+    border: 2px solid #ffdb58; 
+    background-color: grey;
+    transition: 0.3s;
+}
+.adding{
+    width:100% ;
+    height: 100vh;
+    background: linear-gradient(to bottom,blue,white);
+    display: flex;
+    justify-content: center;
+
+}
+.addlink{
+border: 2px,solid , white;
+    border-radius: 30px;
+    width:fit fit-content;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center; 
+    gap: 30px;
+    color:white;
+    padding: 20px 40px; 
+    flex-direction: column;
+}
+.addlink a:hover{
+    color :blue;
+    transition: 0.5s;
+}
+.addform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width:100%;
+    margin-right: 200px;
+}
+input{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #778fb6;
+    outline: none;
+    color: #540c9c;
+    
+}
+.addh2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 50px;
+     margin-bottom: -20px;
+}
+.addh1{
+    font-size: 26px;
+    text-transform:uppercase ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+}
+.add-butt{
+     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 35px; 
+    text-decoration: none;
+    border-radius: 25px; 
+    transition: 0.4s;
+    text-transform: uppercase;
+    background-color: white;
+    color: #1e3c72;
+    margin-left: px; 
+   
+}
+.add-butt:hover {
+    background-color: #ffdb58; 
+    transform: scale(1.1); 
+
+}
+.mycourse-div{
+    background:linear-gradient(to bottom,blue,white);
+    height: 100vh;
+}
+.mycourse-link{
+    border: 2px,solid , white;
+    border-radius: 50px;
+    width:fit-content;
+    margin:  auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    gap: 30px;
+    color:white;
+    padding: 20px 80px;    
+}
+.mycourse-link a:hover{
+    color :blue;
+    transition: 0.5s;
+}
+body {
+    background:linear-gradient(to bottom,blue,white);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.table-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1b2a;
+    border: 2px solid #3e5c76;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e0e1dd; 
+}
+
+th {
+    background-color: #3f5f9a; 
+    color: white;
+    padding: 12px;
+    border: 1px solid #3e5c76;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #778da9;
+    color: #1b263b;
+    font-weight: bold;
+}
+
+
+.btn {
+    padding: 8px 15px;
+    margin: 2px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit {
+    background-color: #468faf; 
+}
+
+.delete {
+    background-color: #c1121f; 
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+@media (max-width: 1024px) {
+    
+    .home, .connect, .adding, .mycourse-div {
+        height: auto; 
+        min-height: 100vh;
+        padding-bottom: 40px;
+    }
+
+    
+    .header {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .link, .addlink, .connectlink, .mycourse-link {
+        flex-direction: column; 
+        width: 85%;
+        margin: 0 auto;
+        padding: 15px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    
+    .content {
+        margin-top: 60px;
+        padding: 0 15px;
+    }
+
+    .content h1 {
+        font-size: 35px; 
+    }
+
+
+    .addform, form {
+        width: 100% !important;
+        margin-right: 0 !important;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    input, textarea {
+        width: 100% !important; 
+        max-width: 400px;
+    }
+
+    
+    .table-container {
+        width: 95%;
+        margin: 20px auto;
+        overflow-x: auto; 
+        display: block; 
+    }
+
+    table {
+        min-width: 600px; 
+    }
+
+    td, th {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+
+    .addh1, .h12, .connect h1 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 28px;
+    }
+    
+    .logo {
+        font-size: 24px;
+    }
+
+    .main-btn, .add-butt, form button {
+        width: 90%;
+        padding: 15px;
+    }
+}
